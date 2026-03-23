@@ -20,7 +20,6 @@
                 <th>ID</th>
                 <th>ชื่อ</th>
                 <th>อีเมล</th>
-                <th>วันที่สมัคร</th>
             </tr>
         </thead>
         <tbody>
@@ -29,7 +28,6 @@
                 <td>{{ $user->id }}</td>
                 <td>{{ $user->name }}</td>
                 <td>{{ $user->email }}</td>
-                <td>{{ $user->created_at }}</td>
             </tr>
             @endforeach
         </tbody>
